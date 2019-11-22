@@ -1,0 +1,40 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-demo-voiceprofiles-default"
+      }
+        "interfaces": []
+      }
+    },
+    "permissions": [
+      {
+        "name": "alexa::person_id:read"
+      }
+    ],
+    "privacyAndCompliance": {
+      "locales": {
+        "en-US": {},
+        "es-ES": {}
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Hello World with Voice Profiles",
+          "examplePhrases": [],
+          "keywords": []
+        },
+        "es-ES": {
+          "name": "Hola Mundo con Perfiles de Voz",
+          "examplePhrases": [],
+          "keywords": []
+        }
+      },
+      "isAvailableWorldwide": true,
+      "distributionCountries": []
+    }
+  }
+}
